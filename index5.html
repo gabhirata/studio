@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!--    <meta http-equiv="X-UA-Compatible" content="IE=Edge">-->
+    <title>cadernos habitação coletiva: buscar</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-lightbox.css">
+-->
+    <link rel="stylesheet" href="css/tachyons.css">
+    <link rel="stylesheet" href="css/styles4.css">
+    <link rel="stylesheet" href="dsemo/index.css">
+
+
+    <!--
+    <link rel="stylesheet" href="css/photoswipe.css">
+    <link rel="stylesheet" href="default-skin/default-skin.css">
+    <script src="js/photoswipe.min.js"></script>
+    <script src="js/photoswipe-ui-default.min.js"></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css" rel="stylesheet" />
+-->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="CHC">
+    <meta name="application-name" content="CHC">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+
+<body class=" center debugs debug-grids helvetica black-90  ">
+    <div id="wrap100">
+        <div class="fixedheader mw8-l mw7-ns bg-white sticky center ">
+            <div>
+                <div class="mh2 d helvetica b--black-80 ph3 pv2 pa3-ns bb border bw1">
+                    <nav class=" mh5-l mh4-ns mw8-l center-l ">
+                        <div class=" " id="logodiv">
+                            <a id="logo" class="link hover-purple black-80 b f4 dib mr3" href="index5.html" title="Home">cadernos de habitação coletiva</a>
+                            <div class="mt2 dib f5 fw6">
+                                <a class="link hover-purple gray dib mr3" href="sobre.html" title="sobre">sobre</a>
+                                <a class="link hover-purple gray dib mr3" href="buscar.html" title="buscar">buscar</a>
+                                <a class="link hover-purple gray dib mr3" href="mapa.html" title="mapa">mapa</a>
+                                <a class="link hover-purple gray dib" href="contato.html" title="contato">contato</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper mw8-l mw7-ns center  georgia">
+            <header class="header ph3 pv3 pv4-ns bb b--black-20 ">
+                <h1 class="ml5-l ml4-ns f3 f2-ns mb2 helvetica">Buscar</h1>
+
+                <h4 class="f6 f5-ns ml5-l ml4-ns mv1 black-60 fw6">todos os cadernos de habitacão coletiva</h4>
+            </header>
+            <div class="bb bw0-l b--black-20">
+                <div id="controls-box" class=" h-100-l w-100 pa2 pt1 br-l b--black-20 ">
+                    <form class="pa0 pa3-ns pt2-ns black-80">
+                        <div class="">
+                            <div>
+                                <input id="name" class="georgia ml0-l input-reset ba b--black-20 pa2 mb2 db w-100 mw6 fltr-controls filtr-search" name="filtr-search" data-search placeholder="palavras-chave" type="text"></div>
+
+                        </div>
+                        <!-- Filter Controls - Multifilter Mode -->
+                        <div class="row">
+                            <!-- A basic setup of multifilter controls, when the user toggles a category
+        the corresponding items are rendered or hidden -->
+                            <ul class="pl0 mv1 dib multifilter">
+                                <h5 class="dib mr2 f6 f5-ns  mv1 black-60 fw6 w5-l w-100">Tipologia:</h5>
+                                <li class="fltr-controls button f6 link br1 ba ph2 ph3-ns pv2 w35 tc mb2 dib black-80" data-multifilter="21">Torre</li>
+                                <li class="fltr-controls button f6 link br1 ba ph2 ph3-ns pv2 w35 tc mb2 dib black-80" data-multifilter="22">Bloco</li>
+                                <li class="fltr-controls button f6 link br1 ba ph2 ph3-ns pv2 w35 tc mb2 dib black-80" data-multifilter="23">Lâminna</li>
+                                <li class="fltr-controls button f6 link br1 ba ph2 ph3-ns pv2 w35 tc mb2 dib black-80" data-multifilter="24">Casa</li>
+
+                            </ul>
+                            <ul class="pl0 mv1 dib multifilter">
+                                <h5 class="dib mr2 f6 f5-ns  mv1 black-60 fw6 w5-l w-100">Ano:</h5>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="1">1930s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="2">1940s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="3">1950s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="4">1960s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="5">1970s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="6">1980s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="7">1990s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="8">2000s</li>
+                                <li class="fltr-controls button br1 f6 link ba w3 tc pv2 mb2 dib black-80" data-multifilter="9">2010s</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <ul class="pl0 mv1 dib sortandshuffle">
+                                <h5 class="dib mr2 f6 f5-ns mv1 black-60 fw6 w4-l w-100">Ordenar:</h5>
+                                <li class="fltr-controls button f6 link br1 ba ph2 ph3-ns pv2 mb2 dib black-80 sort-btn active" data-sortasc>mais antigos</li>
+                                <li class="fltr-controls button f6 link br1 ba ph2 ph3-ns pv2 mb2 dib black-80 sort-btn" data-sortdesc>mais recentes</li>
+                                <li class="fltr-controls button shuffle-btn f6 link br1 ba ph2 ph3-ns pv2 mb2 dib black-80 " data-shuffle>embaralhar</li>
+                            </ul>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="high">
+                <div class="ph1 mauto">
+                    <div class="filtr-container">
+                        <div class="pa1 pa2-ns filtr-item" data-category="1, 2, 22, 24" data-sort="1934">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="santacruz.html">
+                                    <div class="ph">
+                                        <img src="thumbs/santacruz.png">
+                                    </div>
+                                    <div class="placeholder2">
+                                        <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Conjunto Residencial Santa Cruz</h5>
+                                        <h5 class=" ma1 ml2 f7 black-60">1932 - 1934</h5>
+                                        <h5 class=" dn">Marcial Fleury de Oliveira</h5>
+                                        <h5 class=" dn">sao São Paulo</h5>
+                                        <h5 class=" dn">iapi his</h5>
+                                        <h5 class=" dn">concreto</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="2, 3, 22" data-sort="1950">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="9julho.html">
+                                    <div class="ph">
+                                        <img src="thumbs/9julho.png">
+                                    </div>
+                                    <div class="placeholder2">
+
+                                        <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Conjunto Residencial Nove de Julho</h5>
+                                        <h5 class=" ma1 ml2 f7 black-60">1946 - 1950</h5>
+                                        <h5 class=" dn">Comissão Técnica do Instituto de Aposentadoria e Pensões dos Bancários</h5>
+                                        <h5 class=" dn">iapi his publico público</h5>
+                                        <h5 class=" dn">sao são paulo</h5>
+                                        <h5 class=" dn">concreto</h5>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="2, 3, 22, 23" data-sort="1950">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="mooca.html">
+                                    <div class="ph">
+                                        <img src="thumbs/mooca.png">
+                                    </div>
+                                    <div class="placeholder2">
+                                        <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Conjunto Residencial da Mooca</h5>
+                                        <h5 class=" ma1 ml2 f7 black-60">1946 - 1950</h5>
+                                        <h5 class=" dn">Paulo Antunes Ribeiro</h5>
+                                        <h5 class=" dn">iapi his publico público</h5>
+                                        <h5 class=" dn">sao são paulo</h5>
+                                        <h5 class=" dn">concreto</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="2, 3, 22, 23" data-sort="1952">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="japura.html">
+                                    <div class="ph">
+                                        <img src="thumbs/japura.png">
+                                    </div>
+                                    <div class="placeholder2">
+                                        <div class="placeholder3">
+                                            <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Edifício Japurá</h5>
+                                            <h5 class=" ma1 ml2 f7 black-60">1945 - 1952</h5>
+                                            <h5 class=" dn">Eduardo Kneese de Mello</h5>
+                                            <h5 class=" dn">iapi his publico público</h5>
+                                            <h5 class=" dn">sao são paulo</h5>
+                                            <h5 class=" dn">concreto</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="2, 3, 22, 24" data-sort="1953">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="vilaguiomar.html">
+                                    <div class="ph">
+                                        <img src="thumbs/vilaguiomar.png">
+                                    </div>
+                                    <div class="placeholder2">
+                                        <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Conjunto Residencial Vila Guiomar</h5>
+                                        <h5 class=" ma1 ml2 f7 black-60">1940 - 1953</h5>
+                                        <h5 class=" dn">Carlos Frederico Ferreira</h5>
+                                        <h5 class=" dn">iapi his publico público</h5>
+                                        <h5 class=" dn">santo andre andré sp</h5>
+                                        <h5 class=" dn">concreto</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="3, 4, 23" data-sort="1958">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="index5.html">
+                                    <div class="ph">
+                                        <img src="thumbs/pauliceia.png">
+                                    </div>
+                                    <div class="placeholder2">
+                                        <div class="placeholder3">
+                                            <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Edifícios Pauliceia e São Carlos do Pinhal</h5>
+                                            <h5 class=" ma1 ml2 f7 black-60">1952 - 1961</h5>
+                                            <h5 class=" dn">Oscar Niemeyer Carlos Alberto Cerqueira Lemos</h5>
+                                            <h5 class=" dn">sao são paulo</h5>
+                                            <h5 class=" dn">privado mercado</h5>
+                                            <h5 class=" dn">concreto</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="3, 4, 23" data-sort="1961">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="index5.html">
+                                    <div class="ph">
+                                        <img src="thumbs/copan.png">
+                                    </div>
+                                    <div class="placeholder2">
+                                        <div class="placeholder3">
+                                            <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Edifício Copan</h5>
+                                            <h5 class=" ma1 ml2 f7 black-60">1952 - 1961</h5>
+                                            <h5 class=" dn">Oscar Niemeyer Carlos Alberto Cerqueira Lemos</h5>
+                                            <h5 class=" dn">sao são paulo</h5>
+                                            <h5 class=" dn">privado mercado</h5>
+                                            <h5 class=" dn">concreto</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="4, 22" data-sort="1967">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="santoantonio.html">
+                                    <div class="ph">
+                                        <img src="thumbs/santoantonio.png">
+                                    </div>
+                                    <div class="placeholder2">
+                                        <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Conjunto Residencial Santo Antonio</h5>
+                                        <h5 class=" ma1 ml2 f7 black-60">1962 - 1967</h5>
+                                        <h5 class=" dn">Nicolau Barbieri</h5>
+                                        <h5 class=" dn">iapi his publico público</h5>
+                                        <h5 class=" dn">sao são paulo</h5>
+                                        <h5 class=" dn">concreto</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pa1 pa2-ns filtr-item" data-category="8, 9,21, 23," data-sort="2010">
+                            <div class="= card bg-white ba bw1 b--black-10 hover_purple">
+                                <a href="index5.html">
+                                    <div class="ph">
+                                        <img src="thumbs/jardimedite.png">
+                                    </div>
+                                    <div class="placeholder2">
+
+                                        <h5 class="helvetica ma1 ml2 mt2 black-80 f5">Jardim Edite</h5>
+                                        <h5 class=" ma1 ml2 f7 black-60">2010</h5>
+                                        <h5 class=" dn">mmbb h+f</h5>
+                                        <h5 class=" dn">his</h5>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer pa3 bg-black-80 white-30 helvetica h4 mt6 mt7-ns">
+        <div class="center mw6">
+            <h5 class="ma1  fw4">Cadernos de Habitação Coletiva - Brasil</h5>
+            <h5 class="ma1  fw4">PC3 -Grupo de Pesquisa Pensamento Crítico e Cidade Contemporânea
+            </h5>
+            <h5 class="ma1  fw4">FAU-USP 2018</h5>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="demo/jquery.filterizr.min.js"></script>
+    <script src="demo/controls.js"></script>
+    <script>
+        $(function() {
+            var f = $('.filtr-container').filterizr({
+                controlsSelector: '.fltr-controls',
+                layout: 'packed',
+                animationDuration: 0.4,
+                easing: 'ease',
+                multifilterLogicalOperator: 'and',
+            });
+            window.filterizr = f;
+            fltr.filterizr('setOptions', {
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>

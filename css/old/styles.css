@@ -1,0 +1,92 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    padding: 1em;
+    border: 1px solid #fff;
+    border-bottom: none;
+}
+
+/*
+label:hover {
+    background: #dcdcdc;
+}
+*/
+
+label.last {
+    border-bottom: 1px solid #fff;
+}
+
+.collapsable {
+    padding: 0.5em;
+    /*   background: white; */
+}
+
+
+input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"] ~ ul {
+    height: 0;
+    transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ ul {
+    height: 100%;
+    transform-origin: top;
+    transition: transform .2s ease-out;
+    transform: scaleY(1);
+}
+
+input[type="checkbox"]:checked + label {
+    /*   background: #e5e5e5; */
+    border-bottom: 1px solid white;
+    border-left: 1px solid #000000;
+    background-color: #5e2ca5;
+    color: white;
+    }
+
+    /* Tooltip container */
+
+.tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted gray;
+        /* If you want dots under the hoverable text */
+    }
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 12em;
+    background-color: white;
+    color: black;
+    padding: 1em 1em;
+    margin: 0.5em;
+
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.list {
+    height: 100%;
+    
+}

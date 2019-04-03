@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Neue Haas Unica';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/59407a53f2a1286b655194b8_60bebbcf-ba00-4ac4-ad6b-a350fd1903bf.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neue Haas Unica';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/59407a941c551039bd836360_3a6a411f-d54b-4132-ad56-acbd10735bb3.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neue Haas Unica';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/594079041c551039bd836332_13fb76cf-cc84-4ee6-80e9-f472a123b2d3.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rational TW Display';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/59604bb1f8a926414006932a_3428DD_0_0.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rational TW Display';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/59604bcd34d7a523f4e62a80_3428DD_2_0.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rational TW Display';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/59604be7ac46de697c7e57c2_3428DD_1_0.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rational TW Display - same as 600';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/59604be7ac46de697c7e57c2_3428DD_1_0.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Wolpe Pegasus';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/5a843563bbf4100001dbc603_20ae6996-4c74-498c-960e-346c9e10cf32.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Wolpe Pegasus';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/5a8436e4d6e5270001cbf0d6_b45796e3-b96c-4a82-93a6-513eb8b79463.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/585faead5d45728241fd3794_Helvetica%20Neue%20Medium.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/585faee8a4b20168407df50c_Helvetica%20Neue%20Bold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/585faea05d45728241fd3793_Helvetica%20Neue%20Roman.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+
+.wolpe {
+    font-family: 'Wolpe Pegasus';
+}
+
+.rational-tw {
+    font-family: 'Rational TW Display';
+}
+
+.unica {
+    font-family: 'Neue Haas Unica';
+}

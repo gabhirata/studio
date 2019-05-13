@@ -349,3 +349,7 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+img.mfp-img {
+  background-color: white;
+  background-clip: content-box;
+};

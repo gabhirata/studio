@@ -27,6 +27,8 @@ body {
 
 .z-- { z-index: -1; }
 
+.z--- { z-index: 999; }
+
 @font-face {
 	font-family: 'Neue Haas Unica';
 	src: url('https://uploads-ssl.webflow.com/5844e01d7e34f3db57bde3c1/59407a53f2a1286b655194b8_60bebbcf-ba00-4ac4-ad6b-a350fd1903bf.woff') format('woff');

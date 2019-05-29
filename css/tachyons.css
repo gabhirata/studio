@@ -925,6 +925,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mw3 { max-width: 4rem; }
 .mw4 { max-width: 8rem; }
 .mw5 { max-width: 16rem; }
+.mw55  {  max-width: 20rem; }
 .mw6 { max-width: 32rem; }
 .mw7 { max-width: 48rem; }
 .mw8 { max-width: 64rem; }

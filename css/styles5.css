@@ -5,6 +5,24 @@ body {
 }
 */
 
+
+
+
+.zoom{
+	overflow: hidden;
+}
+.zoom img{
+	position: relative;
+	top: 0%;
+	left: 50%;
+	max-width: 100%;
+	width: 100%;
+	transform: translateX(-50%);
+	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
+	will-change: -webkit-filter, filter, transform; */
+}
+
+
 .f0 { font-size: 5rem; }
 
 .z-- { z-index: -1; }

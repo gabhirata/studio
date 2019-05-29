@@ -48,7 +48,7 @@ A FAIRE
     <link href="https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css" rel="stylesheet" />
     <script src="js/smooth-scroll.js"></script>
 -->
-    
+
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -66,8 +66,8 @@ A FAIRE
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    
+
+
 </head>
 
 <body class="  bg-white black helvetica unica  sdebug sdebug-grid">
@@ -124,6 +124,22 @@ A FAIRE
 
 
 
+    <div class="ph3 ph4-m ph5-l mw7 center">
+
+        <div class="mw-100  center">
+            <header class=" zoom">
+                <img src="images/a4_zoom2.png" class="" alt="frise calendrier">
+            </header>
+        </div>
+        
+        
+
+        <!--
+            <div class="aspect-ratio aspect-ratio--4x3 mb4">
+                <div class="aspect-ratio--object cover" style="background:url(images/frise_ateliers_archi.png) center;"></div>
+            </div>
+-->
+    </div>
     <article id="a1" class="mw7 center cf ph3 ph4-m ph5-l pb5 f6">
 
         <header class="fn fl-ns w-40-ns pr4-ns pb4-ns">
@@ -214,7 +230,7 @@ A FAIRE
                 <p class="f lh-copy measure mt0-ns ">
                     Notre objectif est de remettre ces espaces “en jeu”, de leur redonner vie en exploitant pleinement leurs potentiels. A l’echelle locale, le fait de redynamiser ces espaces en leur donnant une fonction permet d’apporter du confort aux habitants. Nous souhaitons aménager ces espaces en répondant aux différentes problématiques que nous avons analysé et en s’inscrivant dans les dynamiques de la ville.</p>
 
-            
+
                 <p class="f lh-copy measure mt0-ns ">
                     “Aujourd’hui, toute intervention dans les espaces résiduels, dans les interstices des villes actuelles n’est plus commode ou suffisamment efficace si celle-ci suit la méthode prônée par le modèle du mouvement moderne traditionnel. Comment l’architecture peut être exécutée dans les terrains vagues sans devenir un instrument agressif de pouvoir et de raison abstraite ? Sans aucun doute, en portant attention à la continuité de tels espaces : par la continuité de la ville planifiée, efficace et légitime, mais bien la continuité des flux, des dynamiques, des rythmes créés par le temps qui passe et la perte des limites…”
                     Solar Morales, Ignasi, Extrait de ‘Terrain Vague’ (1995)
@@ -278,7 +294,7 @@ A FAIRE
                 </div>
 
                 <a href="pdf/moodboard%20catalogue_144.pdf" class="rational-tw no-underline link black bg-animate hover-bg-yellow">_ telécharger (8mb, .pdf)</a>
-                
+
                 <h4 class="mt5-ns rational-tw no-underline link black bg-animate bg-yellow">catalogue de réemploie de matériaux </h4>
 
                 <div class="mw-100 mb3">
@@ -306,6 +322,18 @@ A FAIRE
 -->
 
 
+
+
+    <script>
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            $(".zoom img").css({
+                transform: 'translate3d(-50%, -' + (scroll / 100) + '%, 0) scale(' + (100 + scroll / 3) / 100 + ')',
+                
+            });
+        });
+
+    </script>
 
 
     <script>
